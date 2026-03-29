@@ -1,0 +1,66 @@
+{
+    "version": 1,
+    "name": "XRControls",
+    "maps": [
+        {
+            "name": "XR",
+            "id": "19ec6784-2cf3-4469-b7c9-bf1f2cc4aea7",
+            "actions": [
+                {
+                    "name": "Valve",
+                    "type": "Button",
+                    "id": "85a551aa-13bb-426d-87ed-29703ddee737",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "New action1",
+                    "type": "Button",
+                    "id": "2b479a1e-c0e9-4c21-bd54-b477fe99de7e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0114990f-96d9-422d-988b-36a230e0ee33",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Valve",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fbb449f6-e32f-4858-9036-159035bc40b4",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Valve",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3515e355-3993-443a-bb05-61f9ef3a0082",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

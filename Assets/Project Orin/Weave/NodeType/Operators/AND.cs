@@ -1,0 +1,20 @@
+﻿// Updated AndNode (minimal change)
+using UnityEngine;
+
+public class AndNode : INode
+{
+    public string Name => "AND";
+
+    public string[] Inputs => new[] { "A", "B" };
+    public string[] Outputs => new[] { "Result" };
+
+    public Color Color => Color.black;
+
+    public object[] Evaluate(object[] inputs)
+    {
+        bool a = inputs.Length > 0 && inputs[0] != null ? System.Convert.ToBoolean(inputs[0]) : false;
+        bool b = inputs.Length > 1 && inputs[1] != null ? System.Convert.ToBoolean(inputs[1]) : false;
+
+        return new object[] { a && b };
+    }
+}
