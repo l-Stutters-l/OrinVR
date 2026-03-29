@@ -19,7 +19,7 @@ public static class NodeFactory
         if (_creators.TryGetValue(nodeType, out var creator))
             return creator();
 
-        Debug.LogError($"Unknown node type: {nodeType}");
+        //Debug.LogError($"Unknown node type: {nodeType}");
         return null;
     }
 
